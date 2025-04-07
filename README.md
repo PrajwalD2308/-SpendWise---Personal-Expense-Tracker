@@ -21,3 +21,17 @@ It helps you track your daily expenses, categorize them, and visualize your spen
 - **Frontend:** Tkinter (Python GUI)
 - **Backend:** MySQL (via `mysql-connector-python`)
 - **Visualization:** Matplotlib
+
+
+## 🧩 File Structure
+
+| File         | Description                        |
+|--------------|------------------------------------|
+| `app.py`     | Launches login window              |
+| `login.py`   | User login screen                  |
+| `signup.py`  | User registration form             |
+| `main_app.py`| Main UI to add and view expenses   |
+| `style.py`   | Contains ttk style/theme setup     |
+| `database.py`| DB connection and table setup      |
+| `functions.py`| Expense operations (add/view/chart)|
+
