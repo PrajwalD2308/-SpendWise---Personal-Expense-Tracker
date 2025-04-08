@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from database import connect_db
 
-def show_signup():
+def show_signup(root):
     signup_win = tk.Toplevel()
     signup_win.title("Sign Up")
     signup_win.geometry("300x250")
@@ -30,7 +30,7 @@ def show_signup():
             signup_win.destroy()
             # 👇 Import placed here to avoid circular import
             from login import show_login
-            show_login()
+            show_login(root)
 
         conn.close()
 
